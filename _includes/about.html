@@ -112,9 +112,10 @@
         </div>
       </div>
         <div class="about-section">
-              <h1 class="text-center">What a Success!</h1>
-              <p>HackHer413 took place on February 9th and 10th of 2019. We had over 300 students, volunteers, sponsors and mentors come together to empower women and non-binary students learn and grow in tech. Thank you to all who came, and we cannot wait to see what will happen in future years!</p>
-             <iframe width="80%" style="width:80%;min-width:200px;" height="315" src="https://www.youtube.com/embed/uN2mcc5CH3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class = aos-init aos-animate data-aos="fade-in">
+            <div class = "about-section-child">
+              <h1 class="text-center">Our Mission</h1>
+              {{site.event.about.description | markdownify }}
             </div>
         </div>
       </div>

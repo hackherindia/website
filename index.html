@@ -8,8 +8,239 @@ layout: default
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
+ <!-- Navigation -->
+  <div class="header sticky-top">
+    <nav class="navbar-sticky-top navbar-expand-sm navbar-light bg-light" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#expect">WHAT TO EXPECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#resources">RESOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#sponsors">SPONSORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">OUR TEAM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!-- About -->
 {% include about.html %}
 
+<!-- Icons -->
+<!-- <section class="icons">
+  <div class="container">
+    <div class="icon-row">
+        <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">Hackathons Provide Endless Possibilities</h1>
+        <div class="icon-column">
+          <img class="icon" src="images/Learning.png" alt="Bee with code snippet">
+          <h2 class="icon">Learning</h2>
+            <p>Attend Workshops</p>
+            <p>Share knowledge</p>
+            <p>Get help from mentors</p>
+            <p>Learn from professionals</p>
+            <p>Grow your skillset</p>
+        </div>
+        <div class="icon-column">
+          <img class="icon" src="images/Exploring.png" alt="Bee with rocket ship">
+          <h2 class="icon">Exploring</h2>
+            <p>Discover new industries</p>
+            <p>Meet students from other majors</p>
+            <p>Roam the beautiful UMass campus</p>
+            <p>Get acquainted with new technologies</p>
+        </div>
+        <div class="icon-column">
+          <img class="icon" src="images/Creating.png" alt="Bee with lightbulb idea">
+          <h2 class="icon">Creating</h2>
+            <p>Build something new</p>
+            <p>Solve real-world problems</p>
+            <p>Create your own software</p>
+            <p>Be proud of what you’ve accomplished</p>
+        </div>
+      </div>
+  </div>
+  </section> -->
+
+<!-- What Makes Us Different -->
+<!-- {% include different.html %} -->
+
+<!-- What to expect -->
+<section id="expect" class="expect" style="padding-bottom: 100px;">
+  <div class="container">
+    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">Check out our Schedule!</h1>
+
+    <iframe height="900px" style="width: 100%; margin-top: 60px" " scrolling="yes" title="Day Event Calendar" src="//codepen.io/katiehouse3/embed/LqLgaV/?height=265&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+  </div>
+    <!-- <div class="col-md-6">
+      <ul class="main" style="list-style: none; max-width: 100%; ">
+        <li class="date" style="width: 17%; padding: 15% 1% 0 0; float: left;">
+          <h3 style="font-size: 1.5em;">Feb 9</h3>
+          <p style="font-size: .8em;">Schedule of Events</p>
+        </li>
+        <li class= "events" style="float: left; width: 80%; border-left: 1px solid #000; margin-top: 10%; padding-top: 3%;">
+          <ul class="events-detail" style="max-width: 550px; list-style: none;">
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">8:00am - </span>
+                <span class="event-name">Check-in & Registration</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">9:00am - </span>
+                <span class="event-name">Breakfast</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">10:00am - </span>
+                <span class="event-name">Welcome Ceremony</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">11:00am - </span>
+                <span class="event-name">Hacking Begins!</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">11:00am - </span>
+                <span class="event-name">Sponsors' Fair</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">12:00pm - </span>
+                <span class="event-name">Lunch</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">12:30pm - </span>
+                <span class="event-name">Workshops Begin</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">3:00pm - </span>
+                <span class="event-name">Coffee With Mentors</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">5:00pm - </span>
+                <span class="event-name">Women & Gender Minorities in the Workforce Panel</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">6:00pm - </span>
+                <span class="event-name">Dinner</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">11:59pm - </span>
+                <span class="event-name">Midnight Surprise</span>
+                <br />
+            </li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="main" style="list-style: none; max-width: 100%; ">
+          <li class="date" style="width: 17%; padding: 15% 1% 0 0; float: left;">
+          <h3 style="font-size: 1.5em;">Feb 10</h3>
+          <p style="font-size: .8em;">Schedule of Events</p>
+        </li>
+        <li class= "events" style="float: left; width: 80%; border-left: 1px solid #000; margin-top: 10%; padding-top: 3%;">
+          <ul class="events-detail" style="max-width: 550px; list-style: none;">
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">9:00am - </span>
+                <span class="event-name">Breakfast</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">11:00am - </span>
+                <span class="event-name">Hacking Ends</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">11:45am - </span>
+                <span class="event-name">Lunch</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">12:30pm - </span>
+                <span class="event-name">Presentations & Judging</span>
+                <br />
+            </li>
+            <li class="events-detail" style="padding: 10px; border-bottom: 1px dashed #000; line-height: 22px; transition: ease 0.4s all;">
+                <span class="event-time" style="font-weight: 900;">3:00pm - </span>
+                <span class="event-name">Closing Ceremony</span>
+                <br />
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div> -->
+  </div>
+
+</section>
+
+<!-- Bus Section -->
+<section id="bus" class="bus" style="padding-bottom: 50px; background: #EBF9F3;">
+  <div class="container">
+    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">Free Round Trip Buses from NYC and Boston!</h1>
+    <p>This year we are happy to announce we will be providing free round trip buses to the event from both New York and Boston. Bus tickets will require a deposit of $10 that will be reimbursed once you board the bus. More details on the timing and logistics are on the sign up page once you RSVP for the event on our dashboard. Tickets are limited so secure yours today!</p>
+    <img src="images/bus.png" alt="HackHer413 Bus" class="bus-pic" style=" width: 100%; height: auto; max-width : 500px; display: block; margin-left: auto; margin-right: auto; ">
+  </div>
+</section>
+
+<!-- Keynote Section -->
+{% include keynote.html %}
+
+<!-- Prizes Section -->
+<!-- {% include prize-categories.html %} -->
+<section id="prizes" class="prizes">
+  <div class="container">
+    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">A Sneak Peak at some of our Prizes...</h1>
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrJsE1iEVxY8i1eR?backgroundColor=purpleLight&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</div>
+</section>
+<!-- Resources Section -->
+{% include resources.html %}
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+    <div class="container">
+      <div class="row faq-section">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">FAQ</h1>
+        {% for item in site.event.faq %}
+        <button class="accordion">
+        {{ item.question }}
+        </button>
+         <div class="panel">
+          <p>{{ item.answer | markdownify }}</p>
+        </div>
+        {% endfor %}
+        <p>Have a question that wasn't answered here? Email us at <a href="mailto:hackher413@gmail.com">hackher413@gmail.com</a>!</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Sponsors -->
 <section id="sponsors" class="sponsors">
@@ -164,11 +395,6 @@ layout: default
       </div>
       <div class="col py-3">
         <a target="_blank" href="https://mlh.io"><img class="p-logo" src="images/logos/mlh-logo-color.png" style=" width:10%; min-width:100px; white-space: nowrap;" alt="Major League Hacking"></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col py-3">
-        <a target="_blank" href="https://www.womenofsiliconvalley.com/?utm_source=partners&utm_medium=HackHer413&utm_campaign=WoSV"><img class="p-logo" src="images/logos/women-of-silicon-valley.png" style=" width:10%; min-width:100px; white-space: nowrap;" alt="Women of Silicon Valley"></a>
       </div>
     </div>
   </div>

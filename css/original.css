@@ -392,7 +392,7 @@ section {
 }
 
 .about-section{
-  top:20%;
+  top:40%;
   left:35%;
   position:absolute;
   padding:10px;
@@ -405,10 +405,10 @@ section {
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
-  text-align:center;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
+  box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
   white-space: normal;
-  border-radius: 25px;
-  margin-bottom:200px;
 }
 
 
