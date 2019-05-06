@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+    {% include trust_badge.html %}
+
+    {{ content }}
+
+    <section class="footer rainbow-slow">
+      <div class="container text-center">
+        <h1>{{ site.event.name }}</h1>
+        <h3 class="text-center">Made with <span style="color: #CA7C83;">&hearts;</span> by the HackHer413 team </a></h3>
+        <div class="icon">
+          <a href="https://www.facebook.com/HackHer413/"><i id="social-fb" class="fab fa-facebook-square fa-2x social"></i></a>
+	        <a href="https://twitter.com/@hackher413"><i id="social-tw" class="fab fa-twitter fa-2x social"></i></a>
+	        <a href="https://www.instagram.com/hackher413/"><i id="social-in" class="fab fa-instagram fa-2x social"></i></a>
+          <a href="mailto:hackher413@gmail.com"><i id="social-em" class="fas fa-envelope fa-2x social"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://d3js.org/d3.v4.0.0-rc.2.min.js"></script>
+
+    <script src="https://www.hackher413.com/js/jquery-1.11.3.js"></script>
+    <script src="https://www.hackher413.com/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.hackher413.com/js/jquery.easing.min.js"></script>
+    <script src="https://www.hackher413.com/js/scrolling-nav.js"></script>
+    <!-- <script src="{{ '/js/main-page-animation.js' | prepend: site.baseurl | prepend: site.url }}"></script> -->
+    <script src="https://www.hackher413.com/js/accordion.js"></script>
+    <script src="https://www.hackher413.com/js/sponsorship-button.js"></script>
+    <script src="https://www.hackher413.com/js/emaillist-button.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+# --------------
+# -- Settings --
+# --------------
+
+# Ignore this. This is only if you're hosting this in a sub-folder.
+# If you're using GitHub pages, they automatically override this with the right value.
+baseurl: "/website"
+
+# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
+# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
+url: "https://hackher413.github.io"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
+
+# This will help you track who's visiting your website.
+tracking:
+  google_analytics: "UA-43729070-14"
+
+# Let people connect & engage with you through social media.
+social:
+  twitter_handle: "@hackher413"
+
+# This is Search Engine Optimization. It'll help your website look better on search.
+seo:
+  title:       "HackHer413 | February 9 - 10, 2019"
+  description: "The first all-women and non-binary student hackathon in Western Mass."
+  image:       "images/bee_side.png"
+
+# Event information.
+event:
+  name:        "HackHer413"
+  image:       "images/logo.png"
+  description: "The first all-women and non-binary students' hackathon in Western Mass!"
+  date:        "HackHer413 has ended for 2019"
+  location:    "Thanks for coming and see you next year!"
+
+
+  trust_badge:
+    year:   "2019"  # season year
+    region: "na"    # "na" or "eu"
+    color:  "black" # "white", "black", "gray", "red", "blue" or "yellow"
+
+  hero:
+    links:
+      # - text: "Apply"
+      #   my_mlh:
+      #     client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+      #     redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+      - text: "Sponsor"
+        href: "mailto:hackher413@gmail.com"
+
+  about:
+    description: >
+      HackHer413 is a hackathon for women and nonbinary students hosted at the
+      University of Massachusetts Amherst. Over the course of 24 hours,
+      hackathon participants are encouraged to learn new skills, network, and
+      build something that they are passionate about. This student-run hackathon aims
+      to help increase diversity in the tech industry. We hope you can join us!
+  # Sponsors Section
+  sponsors:
+    description: Interested in sponsoring HackHer413? Check out our [Sponsorship Packet](https://www.hackher413.com/sponsorship-packet.pdf) or send us an email at [hackher413@gmail.com](mailto:hackher413@gmail.com)!
+
+  # Frequently asked questions.
+  faq:
+    - question: "What is a hackathon?"
+      answer: >
+        A hackathon is an invention marathon. Students come together to build cool
+        software & hardware creations over 24 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+    - question: "How much does it cost?"
+      answer: >
+        Nothing. Attending a hackathon is free!
+    - question: "Do I need to be a student to attend?"
+      answer: >
+        Yes. Only students who are currently enrolled at a college/university or have graduated in the
+        last 12 months are eligible to attend.
+    - question: "I do not identify as a woman or non binary student. Can I still participate?"
+      answer: >
+        Yes! You are able to apply as a volunteer. Volunteers will still have full access to the
+        event in exchange for helping out. However, they will not be eligible to submit hacks for prizes.
+    - question: "Where is the event?"
+      answer: >
+        The event is being hosted at UMass Amherst in the Integrated Learning Center (ILC).
+    - question: "Are there travel reimbursements?"
+      answer: >
+            We will be offering limited spots on a bus from Boston, MA and from New York City, NY. Participants can sign up once they RSVP.  
+    - question: "Why the bee?"
+      answer: >
+        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees.
+        We thought it was a good representation of women working hard and working together to solve problems!
+    - question: "What is Major League Hacking?"
+      answer: >
+        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+        We work with over 200 Member Events and empower over 70,000 students every year.
+    - question: "Is there a code of conduct?"
+      answer: >
+        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+  # This is the message you'll receive once you've registered.
+  register:
+    message: >
+      Welcome to HackHer 413! You'll receive more information closer to the hackathon.
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME

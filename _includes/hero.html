@@ -1,0 +1,55 @@
+<section id="apply" class="hero" >
+  <div class="wrapper text-center">
+    <div class="honey-comb"></div>
+    <div class="main-page-description">
+      <div class="logo"><img src="images/logo_color_med.png"/></div>
+      <h2 rel="description">{{ site.event.description }}</h2>
+      <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+      <section id="lab_social_icon_header">
+      <div class="icon-container">
+            <div class="text-center center-block">
+                  <a href="https://www.facebook.com/HackHer413/"><i id="social-fb" class="fab fa-facebook-square fa-3x social"></i></a>
+    	            <a href="https://twitter.com/@hackher413"><i id="social-tw" class="fab fa-twitter fa-3x social"></i></a>
+    	            <a href="https://www.instagram.com/hackher413/"><i id="social-in" class="fab fa-instagram fa-3x social"></i></a>
+              <a href="mailto:hackher413@gmail.com"><i id="social-em" class="fas fa-envelope fa-3x social"></i></a>
+        </div>
+      </div>
+      <div id="wrapper">
+        <div class="hero-row">
+          <div class="col-md-8">
+          <div class="apply-buttons">
+        <button class="email-btn apply-btn-hover color-1" style="position:relative;"><span>Join our Mailing List!</span></button>
+          <div class="sign-up-modal">
+              <div id="mc_embed_signup">
+          		  <div id="close-modal-button"></div>
+          			<div class="input-container">
+                  <h1>Join Our Email List!</h1>
+                </div>
+                <div id="mc_embed_signup">
+                  <form action="https://github.us19.list-manage.com/subscribe/post?u=6c4144b39d9809691e1bafe95&amp;id=c91b4d9912" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6c4144b39d9809691e1bafe95_c91b4d9912" tabindex="-1" value=""></div>
+                    </div>
+          			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sign-up-button"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+     <!--
+     {% for link in site.event.bubbly-button.links %}
+         {% if link.href %} -->
+          <!--<a href="{{ link.href }}">{{ link.text }}</a>-->
+        <!-- {% elsif link.my_mlh %}
+          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+        {% endif %}
+      {% endfor %}-->
+    </div>
+  </div>
+</section>
